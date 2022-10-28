@@ -10,7 +10,6 @@ public class RequestData implements java.io.Serializable {
 
 	private java.lang.String requestorName;
 	private int requestorAge;
-	private java.lang.String requestorRank;
 	private int amount;
 
 	public RequestData() {
@@ -32,14 +31,6 @@ public class RequestData implements java.io.Serializable {
 		this.requestorAge = requestorAge;
 	}
 
-	public java.lang.String getRequestorRank() {
-		return this.requestorRank;
-	}
-
-	public void setRequestorRank(java.lang.String requestorRank) {
-		this.requestorRank = requestorRank;
-	}
-
 	public int getAmount() {
 		return this.amount;
 	}
@@ -49,10 +40,9 @@ public class RequestData implements java.io.Serializable {
 	}
 
 	public RequestData(java.lang.String requestorName, int requestorAge,
-			java.lang.String requestorRank, int amount) {
+			int amount) {
 		this.requestorName = requestorName;
 		this.requestorAge = requestorAge;
-		this.requestorRank = requestorRank;
 		this.amount = amount;
 	}
 
