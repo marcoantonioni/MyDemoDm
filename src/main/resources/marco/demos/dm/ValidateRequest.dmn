@@ -1,11 +1,1 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_1F0087BB-B95F-4CD7-9BB0-E1977D995DF7" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_30983CAC-036E-4456-A506-131C4B34F392" name="ValidateRequest" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_1F0087BB-B95F-4CD7-9BB0-E1977D995DF7">
-  <dmn:extensionElements/>
-  <dmndi:DMNDI>
-    <dmndi:DMNDiagram>
-      <di:extension>
-        <kie:ComponentsWidthsExtension/>
-      </di:extension>
-    </dmndi:DMNDiagram>
-  </dmndi:DMNDI>
-</dmn:definitions>
+<?xml version="1.0" ?><dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_1F0087BB-B95F-4CD7-9BB0-E1977D995DF7" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_30983CAC-036E-4456-A506-131C4B34F392" name="ValidateRequest" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_1F0087BB-B95F-4CD7-9BB0-E1977D995DF7"><dmn:extensionElements/><dmn:inputData id="_17FE1FDD-301B-4550-9A27-72336C0F4F6A" name="RequestData"><dmn:extensionElements/><dmn:variable id="_4EA36947-130B-4162-8423-BBDFEEEF4D2E" name="RequestData"/></dmn:inputData><dmndi:DMNDI><dmndi:DMNDiagram id="_54C36E5D-4DFB-450C-841E-64A33B41F160" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_17FE1FDD-301B-4550-9A27-72336C0F4F6A" dmnElementRef="_17FE1FDD-301B-4550-9A27-72336C0F4F6A" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="220" y="336" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI></dmn:definitions>
