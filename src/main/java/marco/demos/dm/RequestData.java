@@ -6,12 +6,54 @@ package marco.demos.dm;
 
 public class RequestData implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public RequestData() {
-    }
+	private java.lang.String requestorName;
+	private int requestorAge;
+	private java.lang.String requestorRank;
+	private int amount;
 
+	public RequestData() {
+	}
 
+	public java.lang.String getRequestorName() {
+		return this.requestorName;
+	}
 
+	public void setRequestorName(java.lang.String requestorName) {
+		this.requestorName = requestorName;
+	}
+
+	public int getRequestorAge() {
+		return this.requestorAge;
+	}
+
+	public void setRequestorAge(int requestorAge) {
+		this.requestorAge = requestorAge;
+	}
+
+	public java.lang.String getRequestorRank() {
+		return this.requestorRank;
+	}
+
+	public void setRequestorRank(java.lang.String requestorRank) {
+		this.requestorRank = requestorRank;
+	}
+
+	public int getAmount() {
+		return this.amount;
+	}
+
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+
+	public RequestData(java.lang.String requestorName, int requestorAge,
+			java.lang.String requestorRank, int amount) {
+		this.requestorName = requestorName;
+		this.requestorAge = requestorAge;
+		this.requestorRank = requestorRank;
+		this.amount = amount;
+	}
 
 }
