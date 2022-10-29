@@ -1,4 +1,4 @@
 Repository Init Content
 =======================
 
-Your project description here.
+Simple demo built using "IBM Business Automation Manager Open Edition v8.0"
